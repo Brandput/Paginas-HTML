@@ -1,0 +1,74 @@
+/* Reset básico para eliminar el margen, el relleno y el borde predeterminados */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina el estilo predeterminado de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo para las tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Estilo para listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Estilo para formularios y controles de entrada */
+button, input, select, textarea {
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Elimina la apariencia predeterminada del cursor de los botones */
+button {
+    cursor: pointer;
+}
+
+/* Elimina el espaciado predeterminado de las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Alineación de texto y fuentes */
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para las definiciones y citas */
+dfn, blockquote, q {
+    quotes: none;
+}
+
+/* Asegura que los elementos de los encabezados (h1, h2, etc.) no tengan márgenes ni rellenos innecesarios */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenido incrustado como iframes */
+iframe {
+    border: 0;
+}
+
+/* Estilo para el marco de los cuadros de texto */
+textarea {
+    overflow: auto;
+}

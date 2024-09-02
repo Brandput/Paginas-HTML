@@ -1,0 +1,67 @@
+.fondo{
+    background-color: rgba(183, 255, 0, 0.123);
+}
+
+.mitexto{
+    font-size: 80px;
+    color: darkblue;
+    font-family: 'Lucida Sans';
+
+}
+.title{
+    font-size: 3em;
+    color: brown;
+
+}
+
+.logo{
+    width: 200px; 
+    height: 200px;
+   
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: blueviolet;
+ 
+}
+
+#principal{
+    font-size: 4em;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cards-container{
+    background-color: yellowgreen;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 5px solid grey;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}   
